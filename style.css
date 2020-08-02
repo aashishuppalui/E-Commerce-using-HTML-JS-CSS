@@ -117,6 +117,7 @@ body {
   float: left;
   z-index: 2;
   background-color: #ddd;
+  line-height: 32px;
 }
 
 .side-menu ul {
@@ -189,7 +190,7 @@ body {
 
 /*---------slider css------*/
 .slider {
-  width: 85px;
+  width: 85%;
   margin-left: 15%;
   padding: 0 10px;
 }
@@ -223,7 +224,7 @@ body {
 }
 
 .featured-categories img:hover {
-  transition: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*--------------on sale----------*/
@@ -277,7 +278,7 @@ body {
   margin-bottom: 5%;
 }
 
-.ooverlay-right .btn-secondary {
+.overlay-right .btn-secondary {
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -320,10 +321,10 @@ body {
 }
 
 .feature-text {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   float: right;
   width: 80%;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .feature-box {
@@ -370,4 +371,64 @@ body {
 
 .footer .row .fa {
   padding-right: 20px;
+}
+
+/*---------single product------------*/
+.single-product {
+  margin-top: 70px;
+}
+
+.new-arrival {
+  background: green;
+  width: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.col-md-7 h2 {
+  color: #555;
+}
+
+.single-product .fa {
+  color: orange;
+}
+
+.single-product .price {
+  color: orange;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.single-product input {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+}
+
+.single-product .btn-primary {
+  background: orange !important;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 20px;
+  border: none;
+  box-shadow: none !important;
+}
+
+/*-------------------product description-------------------------*/
+.product-description h6 {
+  margin-top: 50px;
+  color: orange;
+}
+
+.product-description p {
+  margin-top: 30px;
+}
+
+.product-description hr {
+  margin-bottom: 50px;
 }
